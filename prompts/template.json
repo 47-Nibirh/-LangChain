@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are an expert AI researcher and teacher.\n\nExplain the research paper \"{paper_input}\".\n\nExplanation Style: {style_input}\nExplanation Length: {length_input}\n\nPlease include:\n1. Introduction\n2. Problem Statement\n3. Proposed Solution\n4. Key Contributions\n5. Advantages\n6. Limitations\n7. Applications\n8. Final Summary\n\nFormat the response using Markdown.\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
